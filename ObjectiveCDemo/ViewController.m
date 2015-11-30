@@ -44,17 +44,20 @@
     textField.placeholder = @"First Name"; //Accessing object properties with dot notation
     textField.frame = CGRectMake(20, 70, 280, 31);  //Function CGRectMake will return rectangle and assign to frame property.
     textField.borderStyle = UITextBorderStyleRoundedRect; //Set borderStyle property to UITextBorderStyleRoundedRect constant from UITextBorderStyle enumeration. 
-    [self.view addSubview:textField]; 
+    [self.view addSubview:textField]; //Adds the textfield to the view using code.
     
     
-    
-    
-    
-    
-    
+    UILabel *exerciseLabel = [[UILabel alloc]init];
+    exerciseLabel.text = @"Exercise 5.1";
+    exerciseLabel.frame = CGRectMake(20, 120, 280, 21); //Sets the frame of the text to the function.
+    exerciseLabel.textAlignment = NSTextAlignmentCenter; //Sets the textAligment property to the NSTextAlignmentCenter enumeration.
+    [self.view addSubview:exerciseLabel]; //Adds the UILabel to the view with code.
     
     
 //:::::CHAPTER 5
+    
+    
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated
