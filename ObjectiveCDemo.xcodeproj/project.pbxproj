@@ -23,6 +23,8 @@
 		34D004FA17C904BB009F8CB8 /* ObjectiveCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D004F917C904BB009F8CB8 /* ObjectiveCDemoTests.m */; };
 		34D0050417C904D1009F8CB8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D0050317C904D1009F8CB8 /* MainStoryboard.storyboard */; };
 		34D0050717C90550009F8CB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D0050617C90550009F8CB8 /* ViewController.m */; };
+		D62A90041C0C1C9A00D2770C /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A90031C0C1C9A00D2770C /* Calculator.m */; };
+		D63D24BC1C0E93BE00C71DCB /* AskJeeves.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D24BB1C0E93BE00C71DCB /* AskJeeves.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		34D0050317C904D1009F8CB8 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		34D0050517C90550009F8CB8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		34D0050617C90550009F8CB8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D62A90021C0C1C9A00D2770C /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		D62A90031C0C1C9A00D2770C /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		D63D24BA1C0E93BE00C71DCB /* AskJeeves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskJeeves.h; sourceTree = "<group>"; };
+		D63D24BB1C0E93BE00C71DCB /* AskJeeves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskJeeves.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,10 @@
 				34D0050317C904D1009F8CB8 /* MainStoryboard.storyboard */,
 				34D0050517C90550009F8CB8 /* ViewController.h */,
 				34D0050617C90550009F8CB8 /* ViewController.m */,
+				D62A90021C0C1C9A00D2770C /* Calculator.h */,
+				D62A90031C0C1C9A00D2770C /* Calculator.m */,
+				D63D24BA1C0E93BE00C71DCB /* AskJeeves.h */,
+				D63D24BB1C0E93BE00C71DCB /* AskJeeves.m */,
 				34D004DB17C904BB009F8CB8 /* Supporting Files */,
 			);
 			path = ObjectiveCDemo;
@@ -257,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D0050717C90550009F8CB8 /* ViewController.m in Sources */,
+				D62A90041C0C1C9A00D2770C /* Calculator.m in Sources */,
 				34D004E517C904BB009F8CB8 /* AppDelegate.m in Sources */,
+				D63D24BC1C0E93BE00C71DCB /* AskJeeves.m in Sources */,
 				34D004E117C904BB009F8CB8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
