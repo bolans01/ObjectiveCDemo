@@ -7,12 +7,15 @@
 //
 
 #import "ViewController.h"
-
+#import "Calculator.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+{
+    Calculator *calculator;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,6 +32,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    calculator = [[Calculator alloc]init];
     
 //CHAPTER 4::::
     NSString *myString = @"Objective-C";  //Created an Object from NextStep NSString class.
