@@ -34,6 +34,24 @@
 	// Do any additional setup after loading the view.
     calculator = [[Calculator alloc]init];
     
+    //Chapter 8:::::::
+    
+    double sum = [calculator addToTotal:10];
+    double difference = [calculator subtractFromTotal:6];
+    double result = [calculator multiplyTimesTotal:3];
+    double quotient = [calculator divideIntoTotal:4];
+    
+    [calculator clear];
+    
+    NSLog(@"Sum: %f", sum);
+    NSLog(@"Difference: %f", difference);
+    NSLog(@"Result: %f", result);
+    NSLog(@"Quotient: %f", quotient);
+
+    
+    //::::Chapter 8
+    
+    
 //CHAPTER 4::::
     NSString *myString = @"Objective-C";  //Created an Object from NextStep NSString class.
     self.lblDemo.text = [myString stringByAppendingString:@" is for me"];//myString is the object we are passing the message to, stringByAppendingString is the method we are calling.  @"..." is the string argument we are passing into the method.  The method will then output/return a string of type NSString and will be assigned to self.lblDemo.text.
