@@ -6,9 +6,10 @@
 //  Copyright © 2015 Oak Leaf Enterprises, Inc. All rights reserved.
 //  CHAPTER 6::::::
 
-#import <Foundation/Foundation.h>
+#import "BusinessObject.h"
 
-@interface Calculator : NSObject
+
+@interface Calculator : BusinessObject
 
 //Clears calculators total
 -(void) clear;

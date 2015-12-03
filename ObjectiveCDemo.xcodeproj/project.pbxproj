@@ -25,6 +25,7 @@
 		34D0050717C90550009F8CB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D0050617C90550009F8CB8 /* ViewController.m */; };
 		D62A90041C0C1C9A00D2770C /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A90031C0C1C9A00D2770C /* Calculator.m */; };
 		D63D24BC1C0E93BE00C71DCB /* AskJeeves.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D24BB1C0E93BE00C71DCB /* AskJeeves.m */; };
+		D63D24C81C10009900C71DCB /* BusinessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D24C71C10009900C71DCB /* BusinessObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		D62A90031C0C1C9A00D2770C /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		D63D24BA1C0E93BE00C71DCB /* AskJeeves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskJeeves.h; sourceTree = "<group>"; };
 		D63D24BB1C0E93BE00C71DCB /* AskJeeves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskJeeves.m; sourceTree = "<group>"; };
+		D63D24C61C10009900C71DCB /* BusinessObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessObject.h; sourceTree = "<group>"; };
+		D63D24C71C10009900C71DCB /* BusinessObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 				34D0050317C904D1009F8CB8 /* MainStoryboard.storyboard */,
 				34D0050517C90550009F8CB8 /* ViewController.h */,
 				34D0050617C90550009F8CB8 /* ViewController.m */,
+				D63D24C61C10009900C71DCB /* BusinessObject.h */,
+				D63D24C71C10009900C71DCB /* BusinessObject.m */,
 				D62A90021C0C1C9A00D2770C /* Calculator.h */,
 				D62A90031C0C1C9A00D2770C /* Calculator.m */,
 				D63D24BA1C0E93BE00C71DCB /* AskJeeves.h */,
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D63D24C81C10009900C71DCB /* BusinessObject.m in Sources */,
 				34D0050717C90550009F8CB8 /* ViewController.m in Sources */,
 				D62A90041C0C1C9A00D2770C /* Calculator.m in Sources */,
 				34D004E517C904BB009F8CB8 /* AppDelegate.m in Sources */,
