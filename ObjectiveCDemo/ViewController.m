@@ -56,16 +56,7 @@
     
 //:::::CHAPTER 5
     
-//CHAPTER 6:::::
-    
-    
-    
-    
-    
-//:::::CHAPTER 6
-    
-    
-    
+
 }
 
 - (void)viewDidAppear:(BOOL)animated

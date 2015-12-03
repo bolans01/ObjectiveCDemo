@@ -25,5 +25,5 @@
 //Divides the specified value into the total
 -(double) divideIntoTotal: (double)value;
 
-
+//:::::CHAPTER 6
 @end
